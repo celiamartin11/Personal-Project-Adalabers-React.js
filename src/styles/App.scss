@@ -1,5 +1,98 @@
 @import 'core/reset';
 
-/*
-  Aquí puedes poner tu código Sass
-*/
+/*HEADER*/
+
+.header{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 20px 20px 20px;
+  border-bottom: 1px solid rgb(194, 217, 176);
+}
+
+.title{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(116, 178, 24);
+}
+
+.label_name{
+  font-size: 18px;
+  margin: 10px;
+  color:rgb(81, 122, 21);
+}
+
+.input_search{
+  border: 1px solid rgb(116, 178, 24);
+  border-radius: 8px;
+  padding: 6px;
+}
+
+.select{
+  color: grey;
+  font-size: 15px;
+  border: 1px solid rgb(116, 178, 24);
+  border-radius: 8px;
+  padding: 6px;
+  margin: 21px;
+}
+
+/*TABLA*/
+
+.section_table{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+  color:rgb(81, 122, 21);
+  display: flex;
+  justify-content: center;
+}
+
+.table{
+  padding: 20px;
+  text-align: center;
+}
+
+.title_info{
+  background-color: rgb(78, 153, 76);
+  color: white;
+  padding: 20px 100px 20px 100px;
+}
+
+/*AÑADIR ADALABER*/
+
+main{
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+
+.add_adalaber{
+  margin: 20px;
+}
+
+.title_add_adalaber{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:  rgb(78, 153, 76);
+}
+
+.form_new_adalaber{
+  display: flex;
+  flex-direction: column;
+  width: 12vw;
+}
+
+.input_search_speciality{
+  border: 1px solid rgb(116, 178, 24);
+  border-radius: 8px;
+  padding: 6px;
+}
+
+.add{
+  margin-top: 28px;
+  padding: 8px;
+  width: 5vw;
+  border-radius: 8px;
+  border: 1px solid rgb(116, 178, 24);
+  color: white;
+  background-color: rgb(91, 152, 0);
+  font-size: 18px;
+}
