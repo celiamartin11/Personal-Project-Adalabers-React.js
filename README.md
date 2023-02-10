@@ -4,7 +4,7 @@
 
 ## Descripción
 
-Mi primer contacto con React es una página que recoge una lista de Adalabers, mujeres que han realizando un bootcamp con Adalab. Estas están acompañadas del tutor que las ha acompañado a lo largo de esa experiencia, y la especialidad, la cual es aleatoria. Cabe destacar que este proyecto **no es responsive**.
+Mi primer contacto con React es una página que recoge una lista de Adalabers, mujeres que han realizando un bootcamp con Adalab. Estas, están acompañadas del tutor que las ha acompañado a lo largo de esa experiencia, y la especialidad, la cual es aleatoria. Cabe destacar que este proyecto **no es responsive**.
 
 En la parte superior encontramos dos filtros: 
 
